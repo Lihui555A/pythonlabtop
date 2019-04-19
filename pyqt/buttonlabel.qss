@@ -1,0 +1,7 @@
+#button_3 {background-color:red;border:2px solid yellow}
+#box_1 {background-color:green}
+#button_1 {background-color:yellow}
+#label_1 {background-color:pink}
+#box_2:hover {background-color:cyan;boder:6px dotted yellow}
+#button_1:hover {background-color:cyan; border: 6px dotted yellow}
+[level='error']:hover {background-color:gray; border: 6px yellow}

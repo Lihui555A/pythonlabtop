@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="register">
+    <file>images/sky.jpg</file>
+  </qresource>
+  <qresource prefix="login"/>
+</RCC>

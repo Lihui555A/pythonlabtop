@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>531</width>
+    <height>417</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="Newpushbutton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>60</y>
+     <width>361</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{font: 10pt &quot;Arial&quot;;}
+
+QPushButton:hover{background-color:rgb(0, 85, 0,100);font: 30pt &quot;Arial&quot;;}
+
+</string>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+   <property name="icon">
+    <iconset resource="iamge.qrc">
+     <normaloff>:/newPrefix/图片1.jpg</normaloff>:/newPrefix/图片1.jpg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>27</width>
+     <height>27</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Newpushbutton</class>
+   <extends>QPushButton</extends>
+   <header>newbutton</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="iamge.qrc"/>
+ </resources>
+ <connections/>
+</ui>

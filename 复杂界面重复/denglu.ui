@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>459</width>
+    <height>413</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Form{border-image: url(:/image/sky.jpg);}</string>
+  </property>
+  <widget class="QPushButton" name="caidan_button">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:green;color:white;border-radius:25px;}
+QPushButton:hover{background-color:yellow;}
+QPushButton:checked{background-color:red;}</string>
+   </property>
+   <property name="text">
+    <string>菜单</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="guanyu_button">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>10</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:green;color:white;border-radius:25px;}
+QPushButton:hover{background-color:yellow;}
+QPushButton:checked{background-color:red;}</string>
+   </property>
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tuichu_button">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>80</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:green;color:white;border-radius:25px;}
+QPushButton:hover{background-color:yellow;}
+QPushButton:checked{background-color:red;}</string>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="chongzhi_button">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>80</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:green;color:white;border-radius:25px;}
+QPushButton:hover{background-color:yellow;}
+QPushButton:checked{background-color:red;}</string>
+   </property>
+   <property name="text">
+    <string>重置</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="haha_button">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>20</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:green;color:white;border-radius:25px;}
+QPushButton:hover{background-color:yellow;}
+QPushButton:checked{background-color:red;}</string>
+   </property>
+   <property name="text">
+    <string>哈哈</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="hehe_button">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>20</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:green;color:white;border-radius:25px;}
+QPushButton:hover{background-color:yellow;}
+QPushButton:checked{background-color:red;}</string>
+   </property>
+   <property name="text">
+    <string>呵呵</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>170</y>
+     <width>311</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <property name="verticalSpacing">
+     <number>10</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">color:black;font:15pt;</string>
+      </property>
+      <property name="text">
+       <string>账    号</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="zhanghao_linedit">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{background-color:transparent;color:25pt;border:none;border-bottom:1px solid black;font: 16pt &quot;微软雅黑&quot;;color:white}
+</string>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">color:black;font:15pt;</string>
+      </property>
+      <property name="text">
+       <string>密    码</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="mima_linedit">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{background-color:transparent;color:25pt;border:none;border-bottom:1px solid black;font: 16pt &quot;微软雅黑&quot;;color:white}
+</string>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="styleSheet">
+       <string notr="true">color:black;font:15pt;</string>
+      </property>
+      <property name="text">
+       <string>确认密码</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="querenmima_linedit">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{background-color:transparent;color:25pt;border:none;border-bottom:1px solid black;font: 16pt &quot;微软雅黑&quot;;color:white}
+</string>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0" colspan="2">
+     <widget class="QPushButton" name="denglu_button">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{background-color:red;color:black;border-radius:20px;font: 14pt &quot;微软雅黑&quot;;}
+
+:hover{background-color:black;color:red}
+:disabled {background-color:rgb(107, 107, 107)}
+</string>
+      </property>
+      <property name="text">
+       <string>注册</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <zorder>guanyu_button</zorder>
+  <zorder>tuichu_button</zorder>
+  <zorder>chongzhi_button</zorder>
+  <zorder>hehe_button</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>caidan_button</zorder>
+  <zorder>haha_button</zorder>
+ </widget>
+ <resources>
+  <include location="denglu.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>caidan_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>caidan_button_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>70</x>
+     <y>31</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>100</x>
+     <y>64</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>guanyu_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>guanyu_button_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>143</x>
+     <y>31</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>223</x>
+     <y>30</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tuichu_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>tuichu_button_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>50</x>
+     <y>115</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>46</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>chongzhi_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>chongzhi_button_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>148</x>
+     <y>105</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>280</x>
+     <y>125</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>denglu_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>zhuce_button_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>214</x>
+     <y>325</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>223</x>
+     <y>367</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>haha_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>haha_button_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>279</x>
+     <y>47</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>308</x>
+     <y>79</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>hehe_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>hehe_button_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>383</x>
+     <y>40</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>422</x>
+     <y>40</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>zhanghao_linedit</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>Form</receiver>
+   <slot>denglu_button_enable()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>322</x>
+     <y>181</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>433</x>
+     <y>181</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mima_linedit</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>Form</receiver>
+   <slot>denglu_button_enable()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>357</x>
+     <y>225</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>405</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>querenmima_linedit</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>Form</receiver>
+   <slot>denglu_button_enable()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>354</x>
+     <y>265</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>409</x>
+     <y>268</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>caidan_button_clicked()</slot>
+  <slot>guanyu_button_clicked()</slot>
+  <slot>tuichu_button_clicked()</slot>
+  <slot>chongzhi_button_clicked()</slot>
+  <slot>zhuce_button_clicked()</slot>
+  <slot>haha_button_clicked()</slot>
+  <slot>hehe_button_clicked()</slot>
+  <slot>denglu_button_enable()</slot>
+ </slots>
+</ui>

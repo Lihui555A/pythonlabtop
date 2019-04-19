@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="image">
+    <file>1.jpg</file>
+    <file>1.gif</file>
+    <file>accept.png</file>
+    <file>application_double.png</file>
+    <file>application_edit.png</file>
+    <file>application_error.png</file>
+    <file>application_form.png</file>
+    <file>application_get.png</file>
+    <file>sky.jpg</file>
+  </qresource>
+</RCC>
